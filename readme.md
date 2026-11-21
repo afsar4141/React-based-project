@@ -18,10 +18,6 @@ npm install
 npm run dev
 ```
 
-Optional: copy `frontend/.env.example` to `frontend/.env` to point at a different API URL.
-
-Demo admin: `admin@master.com` / `123456`
-
 ## Features
 
 - Product catalogue with search, category filter, sorting and infinite scroll
