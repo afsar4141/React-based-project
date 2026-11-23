@@ -28,7 +28,7 @@ const Signup = () => {
                     minLength: { value: 3, message: "At least 3 characters" },
                 })}
                 type="text"
-                placeholder="john-doe"
+                placeholder="Afsar"
                 error={errors.username}
             />
             <FormField
@@ -40,7 +40,7 @@ const Signup = () => {
                     },
                 })}
                 type="email"
-                placeholder="john@doe.doe"
+                placeholder="afsar@example.com"
                 error={errors.email}
             />
             <FormField
@@ -49,7 +49,7 @@ const Signup = () => {
                     minLength: { value: 6, message: "At least 6 characters" },
                 })}
                 type="password"
-                placeholder="********"
+                placeholder="password"
                 error={errors.password}
             />
             <button

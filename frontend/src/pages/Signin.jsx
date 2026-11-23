@@ -24,13 +24,13 @@ const Signin = () => {
             <FormField
                 {...register("email", { required: "Email is required" })}
                 type="email"
-                placeholder="john@doe.doe"
+                placeholder="afsar@example.com"
                 error={errors.email}
             />
             <FormField
                 {...register("password", { required: "Password is required" })}
                 type="password"
-                placeholder="********"
+                placeholder="password"
                 error={errors.password}
             />
             <button

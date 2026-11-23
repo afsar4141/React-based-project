@@ -41,7 +41,7 @@ const Settings = () => {
                     minLength: { value: 3, message: "At least 3 characters" },
                 })}
                 type="text"
-                placeholder="john-doe"
+                placeholder="Afsar"
                 error={errors.username}
             />
             <FormField
@@ -53,7 +53,7 @@ const Settings = () => {
                     },
                 })}
                 type="email"
-                placeholder="john@doe.doe"
+                placeholder="Afsar@example.com"
                 error={errors.email}
             />
             <FormField
